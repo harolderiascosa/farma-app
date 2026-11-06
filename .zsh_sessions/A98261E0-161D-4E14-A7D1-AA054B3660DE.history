@@ -1,0 +1,48 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo xcodebuild -license accept
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo >> /Users/macdeeduardo/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/macdeeduardo/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+brew --version
+git clone https://github.com/seedds/nxnative.git && cd nxnative
+brew install xcodegen zstd spirv-cross
+brew install --cask dotnet-sdk
+python3 -m pip install lz4 capstone fonttools
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   docker --version
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   cd ~/freellmapi && docker compose logs
+   curl http://localhost:3001/v1/chat/completions \\
+     -H "Authorization: Bearer freellmapi-TU-CLAVE" \\
+     -H "Content-Type: application/json" \\
+     -d '{"model":"auto","messages":[{"role":"user","content":"Hola"}]}'
+   curl http://localhost:3001/v1/chat/completions \\
+     -H "Authorization: Bearer freellmapi-TU-CLAVE" \\
+     -H "Content-Type: application/json" \\
+     -d '{"model":"auto","messages":[{"role":"user","content":"Hola"}]}'
+npx freellmapi setup-claude --url http://localhost:3001 --api-key freellmapi-cedf26c6ec330a1d8fd14deae277954f05923e5981b0f23c
+   npx freellmapi setup-claude--url http://localhost:3001--api-key freellmapi-cedf26c6ec330a1d8fd14deae277954f05923e5981b0f23c
+node --version
+   npx freellmapi setup-claude --url http://localhost:3001 --api-key freellmapi-cedf26c6ec330a1d8fd14deae277954f05923e5981b0f23c\
+
+node --version
+claude --version
+   curl -fsSL https://claude.ai/install.sh | bash
+   claude --version
+   claude --version
+   claude --versionclaude --version
+claude --version
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+claude --version
+   npx freellmapi setup-claude --url http://localhost:3001 --api-key freellmapi-cedf26c6ec330a1d8fd14deae277954f05923e5981b0f23c\
+
+npx freellmapi setup-claude --url http://localhost:3001 --api-key freellmapi-fcreellmapi-cedf26c6ec330a1d8fd14deae277954f05923e5981b0f23
+npx freellmapi setup-claude --url http://localhost:3001 --api-key freellmapi-TU-CLAVE
+ls ~/.local/bin/claude
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc\
+source ~/.zshrc\
+claude --version

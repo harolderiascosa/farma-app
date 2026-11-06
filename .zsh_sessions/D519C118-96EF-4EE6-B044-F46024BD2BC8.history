@@ -1,0 +1,16 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo xcodebuild -license accept
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo >> /Users/macdeeduardo/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/macdeeduardo/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+brew --version
+git clone https://github.com/seedds/nxnative.git && cd nxnative
+brew install xcodegen zstd spirv-cross
+brew install --cask dotnet-sdk
+python3 -m pip install lz4 capstone fonttools
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   docker --version
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   curl -fsSL https://freellmapi.co/install.sh | bash

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "freellmapi": "^0.8.2"
+  },
+  "_npx": {
+    "packages": [
+      "freellmapi"
+    ]
+  }
+}

@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import '@/app/globals.css';
 
 export const metadata: Metadata = {
-  title: 'FarmaClínica Pro',
-  description: 'Estudio interactivo de Farmacología Clínica',
+  title: 'FarmaClínica Pro - App de Estudio',
+  description: 'Simulador interactivo de Farmacología Clínica y Terapéutica para preparación de parciales.',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
@@ -18,13 +18,13 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
   viewportFit: 'cover',
-  themeColor: '#09090b',
+  themeColor: '#08080a',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className="dark h-full">
-      <body className="bg-zinc-950 text-zinc-100 antialiased h-full overflow-x-hidden selection:bg-emerald-500 selection:text-white pb-24">
+      <body className="bg-[#08080a] text-zinc-100 antialiased h-full overflow-x-hidden selection:bg-emerald-500 selection:text-zinc-950 font-sans">
         {children}
       </body>
     </html>
